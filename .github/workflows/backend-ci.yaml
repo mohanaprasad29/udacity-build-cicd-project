@@ -28,7 +28,7 @@ jobs:
 
       - run: pip install pipenv
 
-      - run: pipenv install
+      - run: pipenv install --dev
 
       - run: pipenv run lint
 
@@ -51,7 +51,7 @@ jobs:
 
       - run: pip install pipenv
 
-      - run: pipenv install
+      - run: pipenv install --dev
 
       - run: pipenv run test
 
@@ -75,7 +75,7 @@ jobs:
 
       - run: pip install pipenv
 
-      - run: pipenv install
+      - run: pipenv install --dev
 
       - run: pipenv run test
 
